@@ -1,0 +1,92 @@
+ /* html5doctor.com Reset v1.6.1 - http://cssreset.com */
+        html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+/* logo */
+.branch {
+	position: relative;
+	background-image: url(../images/navigationbar.jpg);
+	background-repeat: no-repeat;
+	height: 365px;
+	width: 965px;
+}
+
+#logo { 
+	position: absolute;
+	height: 100px; 
+	width: auto; 
+	left: 25px; 
+	top: 25px;
+	z-index: 100  
+}
+
+/* Nav Bar */
+#Home {  
+	left: 95px; top: 105px; 
+	position: absolute;  
+}
+
+#About {  
+	left: 445px; top: 105px; 
+	position: absolute; 
+}
+
+#Contact { 
+	left: 705px; top: 105px; 
+	position: absolute; 
+} 
+
+.navbuttons {
+    font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1.25em;
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover, nav a:active {
+         background-color: #800;
+         color: orange;
+}
+
+/* Main Body(Articale) */
+
+}
+
+.homepage {
+	height: 5000em;
+	
+}
+
+#portfolio {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 2em;
+	color: blue;
+	text-align: center;
+}
+.carousel_girl{
+	height: 30em;
+	width: auto;
+}
+
+/* footer */
+#divide4 { 
+	background-color: #a7a8c9; 
+	height: 108px; width: 960px; 
+	left: 10px; top: 710px; 
+	position: absolute; 
+}
+
+.formtype {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1em;
+	color: blue;
+}
+
+#text_align_center {
+	text-align: center;
+}
+
+ @media only screen and (max-width: 768px) {
+        #wrapper {
+                margin: 2em 5%;
+                display: inline-block;
+                width: 90%;
