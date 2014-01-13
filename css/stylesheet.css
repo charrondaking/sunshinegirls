@@ -19,6 +19,8 @@
 	z-index: 100  
 }
 
+
+
 /* Nav Bar */
 #Home {  
 	left: 95px; top: 105px; 
@@ -47,14 +49,10 @@ nav a:hover, nav a:active {
          color: orange;
 }
 
+
+
 /* Main Body(Articale) */
 
-}
-
-.homepage {
-	height: 5000em;
-	
-}
 
 #portfolio {
 	font-family: Tahoma, Geneva, sans-serif;
@@ -62,16 +60,59 @@ nav a:hover, nav a:active {
 	color: blue;
 	text-align: center;
 }
-.carousel_girl{
+
+.carousel_girl {
 	height: 30em;
 	width: auto;
+	top: 35px;
+	float: left;
+	padding: 3em
 }
+
+#aster {
+	left: 25px;
+	
+}
+#lizzy {
+	left: 45px;
+}
+#lark {
+	left: 65px;
+}
+#veronica {
+	left: 85px;
+}
+#lily {
+	left: 105px;
+}
+
+
+/* Contact Page logos */
+
+.indvlogos{
+	height: 115px;
+	width: auto;
+	float: left;
+	text-decoration: none;
+	padding: 5em;
+	border: 3em;
+}
+
+.bodytext p{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1em;
+	text-align: center;
+	padding: 25em;
+	border: 1em;
+}
+
+
 
 /* footer */
 #divide4 { 
 	background-color: #a7a8c9; 
 	height: 108px; width: 960px; 
-	left: 10px; top: 710px; 
+	left: 10px; top: 1600px; 
 	position: absolute; 
 }
 
@@ -81,7 +122,7 @@ nav a:hover, nav a:active {
 	color: blue;
 }
 
-#text_align_center {
+.text_align_center {
 	text-align: center;
 }
 
