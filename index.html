@@ -3,39 +3,85 @@
 <head>
 	<meta charset="utf-8">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Charonda King">
 		
 		<title>Sunshine Girls</title>
-		<link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+		<meta name="viewpoint" content="width=device=width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="css/headfooter.css" type="text/css">
+		<link rel="stylesheet" href="css/index.css" type="text/css">
+		<link rel="stylesheet" media="only screen and (min-width: 480px) and (max-width: 767px)" href="tabletportrait.css"/>
+		<link rel="stylesheet" media="only screen and (min-width: 320px) and (max-width: 480px)" href="phone.css"/>
+
 		<script type="text/javascript" src="javascript.js"></script>
 	
 </head>
+
+	<script type="text/javascript">
+		/ Open Product Page /
+
+		function openWin(){
+			var about = window.open;{
+ 				window.open("about.html","_blank","toolbar=no, scrollbars=yes, resizable=yes, top=50, left=500, width=750, height=645");
+				}
+			}
+
+
+	function openWin(varContact){
+ 				window.open("contact.html","_blank","toolbar=no, scrollbars=yes, resizable=yes, top=50, left=500, width=750, height=645");
+			}
+
+		function openWin(){
+ 				window.open("about.html","_blank","toolbar=no, scrollbars=yes, resizable=yes, top=50, left=500, width=750, height=645");
+			}
+	</script>
+
+</script>
+
 <body>
-<article>
 			
 <!-- Logo Area -->				
-		<header>
-			<img id="logo" src="images/sunshinegirls.png">
-		<div class="branch"></div>
+<header><img id="logo" src="images/sunshinegirls.png">
+	<div class="branch"><img class= "branch" src="images/mainbranch.png" alt="">
+	</div>
+	
+	<div id="blue_bar">	
+	</div>
 <!-- Nav -->
-		<nav>			
-			<div id="About">
-				<a class="navbuttons" href="about.html">About Us</a>
-			</div>
+	<nav id="nav_buttons">			
+		<div id="nav_product">
+			<a href="services.html">
+			<img id="sun_flower" src="images/sunflower.png">
+			</a>
+		</div>
 			
-			<div id="Home">
-				<a class="navbuttons" href="index.html">Home</a>
-			</div>
+		<div id="nav_about">
+			<a href="contact.html">
+			<img id="daisy" src="images/daisy.png">
+			<img id="butterfly" src="images/butterflyorange.png">
+			</a>
+		</div>
 					
-			<div id="Contact">
-				<a class="navbuttons" href="contact.html">Contact</a>
-			</div>
+		<div id="nav_contact">
+			<a href="contact.html">
+			<img id="gerber" src="images/orangerber.png">
+			</a>
+		</div>
+
 				
-		</nav>
-	</header>
+	</nav>
+	<nav id="a_link_position">
+		<a class="navbuttons" id="product" href="#" onclick="openWin();">Product</a>
+		
+		<a class="navbuttons" id="about" href="#" onclick="openWin();">About Us</a>
+		
+		<a class="navbuttons" id="contact" href="#" onclick="openWin();">Contact</a>
+	</nav>
+
+	
+</header>
 
 <!-- Main Body -->
-<div class="imageLoop">	
+<article id="image_loop_wrapper">	
 			
 						<div class="loop_image">
 							<img class="carousel_girl" id="aster" src="images/aster.jpg">
@@ -52,16 +98,14 @@
 						<div class="loop_image">
 							<img class="carousel_girl" id="lily" src="images/lily.jpg">
 						</div>	
-</div>
+</article>
 
 <!-- Footer -->
-		<div id="divide4">
-			<div>
+		<div id="footer_wrapper">
 				<p></p>
 				<br>
-				<p><footer class="text_align_center"><span class="super">©</span>SunShine Girls | P.O. Box 10847 | Smyrna GA 30080</footer></p>
-				<p><footer class="text_align_center"><a href="tel:7704332211">(770) 433-2211</a> | <a href="mailto:info@sunshinegirls.com?subject=sunshinegirls.com%20website">info@asunshinegirls.com</a></footer></p>
-			</div>
+				<p><footer class="footer_text"><span class="super">©</span>SunShine Girls | P.O. Box 10847 | Smyrna GA 30080</footer></p>
+				<p><footer class="footer_text"><a href="tel:7704332211">(770) 433-2211</a> | <a href="mailto:info@sunshinegirls.com?subject=sunshinegirls.com%20website">info@asunshinegirls.com</a></footer></p>
 		</div>
 
 </body>

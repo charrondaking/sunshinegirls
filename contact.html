@@ -6,7 +6,7 @@
     <meta name="author" content="">
 		
 		<title>Sunshine Girls/About</title>
-		<link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+		<link rel="stylesheet" href="css/contact.css" type="text/css">
 	
 </head>
 <body>
@@ -15,65 +15,76 @@
 <!-- Logo Area -->				
 	<header>
 			<img id="logo" src="images/sunshinegirls.png">
-		<div class="branch"></div>
+		<div class="branch"><img id="butterfly" src="images/butterflyorange.png"></div>
 <!-- Nav -->
-		<nav>			
-			<div id="About">
-				<a class="navbuttons" href="services.html">About Us</a>
-			</div>
-			
-			<div id="Home">
-				<a class="navbuttons" href="index.html">Home</a>
-			</div>
-					
-			<div id="Contact">
-				<a class="navbuttons" href="contact.html">Contact</a>
-			</div>
-				
-		</nav>
+		
 	</header>
 
 <!-- Main Body -->		
-	<div id="main">
+<article>
 		<br>
-		<div align="left">
-		<p class="formtype">Contact Us</p>
-		<p></p>
-				<br>
-			<form method="post" enctype="text/plain" action="mailto:info@artbeautiful.com">
-				<pr>Your Name:
+	<div id="">
+		
+			
+			<form method="post" enctype="text/plain" action="#">
+				<pr class="form_type">Your Name:
 			
 			<input type="text" name="customername" size="40" maxlength="50">
 				</pr>
-				<p></p>
-				<p class="formtype">Comment:<br>
-			
-			<textarea name="customercomment" rows="5" cols="60" wrap="hard">Add your comment here.</textarea></p>
-				<p class="formtype">Service</p>
+				<p class="form_type">Contact:<br>
+				
+			<textarea id="username" name="customercomment" rows="5" cols="60" wrap="hard">Please enter your phone number or email address</textarea></p>
+				<p></p><br>
+				<p class="form_type">Service</p>
 			<input type="checkbox" name="design" value="yes">Design
 			<input type="checkbox" name="photography" value="yes">Photography
-				<p class="formtype">How did you hear about us?<br>
+				<p class="form_type">Message:<br>
 			
-			<textarea name="customercomment" rows="5" cols="60" wrap="hard">
-			Web Search
-			Radio
-			Tradeshow
-			Other
+			<textarea id="message" name="customercomment" rows="5" cols="60" wrap="hard">Enter your message here
 			</textarea></p>
 			
-			<input type="submit" value="Send">
+			<input type="submit" name="submit" value="Send Form">
 			<input type="reset" value="Reset">
 			</form>
-		</div></div>
+<script type="text/javascript">
+
+	$(document).ready(function() {
+	$('form').submit(function() {
+		alert('Your form was submitted');
+		return false;
+		)}
+	})
+
+	$(document).ready(function(){
+		$('form').submit(function(event){
+			if($('#username').val()== ''){
+				alert('Please enter your name');
+				event.preventDefault();
+				return false;
+			}
+		})
+	)}
+
+	$(document).ready(function(){
+		var maxCharacters = 150;
+		$('#message').on('keyup',function(){
+			var currentVal = $('#message').val().lenght;
+			var totalRemaining = maxCharacters - currentVal;
+			$('#remaining').text(totalRemaining);
+		})
+	})
+</script>
+
+
+		</div>
+</article>
 
 <!-- Footer -->
-		<div id="divide4">
-			<div align="center">
+		<div id="footer_wrapper">
 				<p></p>
 				<br>
-				<p><footer class="text_align_center"><span class="super">©</span>SunShine Girls | P.O. Box 10847 | Smyrna GA 30080</footer></p>
-				<p><footer class="text_align_center"><a href="tel:7704332211">(770) 433-2211</a> | <a href="mailto:info@sunshinegirls.com?subject=sunshinegirls.com%20website">info@asunshinegirls.com</a></footer></p>
-			</div>
+				<p><footer class="footer_text"><span class="super">©</span>SunShine Girls | P.O. Box 10847 | Smyrna GA 30080</footer></p>
+				<p><footer class="footer_text"><a href="tel:7704332211">(770) 433-2211</a> | <a href="mailto:info@sunshinegirls.com?subject=sunshinegirls.com%20website">info@asunshinegirls.com</a></footer></p>
 		</div>
 </body>
 </html>

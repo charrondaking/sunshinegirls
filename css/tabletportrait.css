@@ -1,0 +1,248 @@
+/* html5doctor.com Reset v1.6.1 - http://cssreset.com */
+        html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+/* logo */
+header {
+	height: 200px;
+	width: auto;
+}
+.branch {
+	position: relative;
+	height: auto;
+	width:400px;
+	margin: 0px auto;
+	z-index: 75;
+	top: -50px;
+}
+
+#blue_bar {
+	position: relative;
+	height: 150px;
+	width: 420px;
+	background: #a7a7c9;
+	margin: 0px auto;
+	top: -415px;
+	z-index: 50;
+}
+
+#logo { 
+	position: relative;
+	height: 100px; 
+	width: auto; 
+	top: 30px;
+	left: 165px;
+	z-index: 100;  
+}
+
+/* Nav Buttons */
+
+.navbuttons {
+    font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1.25em;
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover, nav a:active {
+         background-color: #800;
+         color: orange;
+}
+
+
+#product {  
+	position: relative; 
+	right: -365px; 
+	top: -450px;
+	z-index: 250;
+	margin: 0em;
+	padding: 0em;
+}
+
+#about {  
+	position: relative; 
+	left: 820px; 
+	top: -460px; 
+	z-index: 150;
+	margin: 0em;
+	padding: 0em;
+}
+
+#contact { 
+	position: relative; 
+	left: 520px; 
+	top: -435px; 
+	z-index: 150;
+	margin: 0em;
+	padding: 0em; 
+} 
+
+
+
+/* Nav Bar */
+
+#sun_flower {
+	position: relative;
+	height: 120px;
+	width: auto;
+	top: 760px;
+	left: 360px;
+	z-index: 225;
+}
+
+#daisy {
+	position: relative;
+	height: 210px;
+	width: auto;
+	top: 1200px;
+	left: 520px;
+	z-index: 225;
+}
+
+#butterfly {
+	position: relative;
+	height: 55px;
+	width: auto;
+	right: 65px; 
+	top: 1000px;
+	z-index: 150;
+}
+
+#gerber {
+	position: relative;
+	height: 130px;
+	width: auto;
+	top: 790px;
+	left: 969px;
+	z-index: 125;
+}
+
+/* Nav div control blank space */
+
+#nav_product {
+	height: 120px;
+	padding: 0px;
+	margin: 0px;
+	top: -510px;
+	position: relative;
+}
+
+#nav_about {
+	height: 210px;
+	padding: 0px;
+	margin: 0px;
+	top: -905px;
+	position: relative;
+}
+
+#nav_contact {
+	height: 130px;
+	padding: 0px;
+	margin: 0px;
+	top:-755px;
+	position: relative;
+}
+
+#nav_buttons {
+	height: 1.5em;
+	padding: 0px;
+	margin: 0px;
+	top:-800px;
+	position: relative;
+}
+
+
+/* Main Body(Articale) */
+body {
+	height: 720px;
+	width: auto;
+}
+
+#image_loop_wrapper {
+	height: 400px;
+	width: auto;
+}
+
+.carousel_girl {
+	width: auto;
+	float: left;
+	padding: 1em;
+	margin: 2em 0em 0em 0em;
+}
+
+#aster {
+	height: 400px;	
+	top: -80px;
+	margin: 0em 0em 0em 3em;
+	position: relative;
+	display: hidden;
+	 
+}
+#lizzy {
+	height: 320px;
+	top: -10px;
+	position: relative;
+	display: visible;
+}
+#lark {
+	height: 300px;
+	top: 70px;
+	position: relative;
+	display: hidden;
+}
+#veronica {
+	height: 300px;
+	top: -30px;
+	position: relative;
+	display: hidden;
+}
+#lily {
+	height: 450px;
+	top: -80px;
+	position: relative;
+	display: hidden;
+}
+
+
+#portfolio {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 2em;
+	color: blue;
+	text-align: center;
+}
+
+
+/* Contact */
+.formtype {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1em;
+	color: blue;
+	margin: 0px auto;
+	position: relative;
+
+/* footer */
+
+#footer_wrapper { 
+	background-color: #a7a8c9; 
+	height: 75px; 
+	width: 600px; 
+	margin: 6em auto 0em;
+
+}
+
+.footer_text {
+	margin: 1px auto;
+	padding: 0em;
+	text-align: center;
+	color: black;
+	
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+div a:hover, div a:active {
+         background-color: #800;
+         color: orange;
+}

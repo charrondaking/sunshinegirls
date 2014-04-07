@@ -2,71 +2,73 @@
         html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
 
 
-
-
-
-/* Main Body(Articale) */
-
-
-#portfolio {
-	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 2em;
-	color: blue;
-	text-align: center;
+#logo { 
+	height: 100px; 
+	width: auto; 
+	float: left; 
+	margin: 1em 1em .1em 1em;
 }
 
-.carousel_girl {
+
+
+/* Sunflower */
+#sun_flower {
 	height: 100px;
 	width: auto;
-	
-}
-
-#aster {
-	float: right;
-	margin: 0px;
-	padding: 0px;
-	
-}
-#lizzy {
-	float: right;
-	margin: 0px;
-	padding: 0px;
-}
-#lark {
-	float: right;
-	margin: 0px;
-	padding: 0px;
-}
-#veronica {
-	float: right;
-	margin: 0px;
-	padding: 0px;
-}
-#lily {
-	float: right;
-	margin: 0px;
-	padding: 0px;
+	float: right;	
 }
 
 
-/* Contact Page logos */
+/* Daisy */
+#daisy {
+	height: 180px;
+	width: auto;
+}
 
-.indvlogos{
-	height: 115px;
+
+#butterfly {
+	height: 55px;
+	width: auto;
+}
+
+/* Gerber */
+#gerber {
+	height: 110px;
 	width: auto;
 	float: left;
-	text-decoration: none;
-	padding: 5em;
-	border: 3em;
 }
 
-.bodytext p{
-	font-family: Tahoma, Geneva, sans-serif;
+#main {
+	float: left;
+	margin: 0em 1em 1em 1em;
 	font-size: 1em;
-	text-align: center;
-	padding: 25em;
-	border: 1em;
 }
 
 
 
+/* Footer Bar */
+#footer_wrapper { 
+	background-color: #a7a8c9; 
+	height: 75px; 
+	width: auto; 
+	margin: 1em auto 0em auto;
+
+}
+
+.footer_text {
+	margin: 1px auto;
+	padding: 0em;
+	text-align: center;
+	color: black;
+	
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+div a:hover, div a:active {
+         background-color: #800;
+         color: orange;
+}
