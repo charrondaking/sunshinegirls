@@ -1,4 +1,3 @@
-
 / Option 1 /
 
 setInterval(function(){
@@ -11,8 +10,7 @@ setInterval(function(){
         img.style.visibility = 'hidden';
     }
 }, 1000);
-  setInterval = setTimeout('loop()', 3000);
-)}
+setInterval = setTimeout('loop()', 3000);
 
 
 
