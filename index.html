@@ -17,22 +17,9 @@
 </head>
 
 	<script type="text/javascript">
-		/ Open Product Page /
-
-		function openWin(){
-			var about = window.open;{
- 				window.open("about.html","_blank","toolbar=no, scrollbars=yes, resizable=yes, top=50, left=500, width=750, height=645");
-				}
-			}
-
-
-	function openWin(varContact){
- 				window.open("contact.html","_blank","toolbar=no, scrollbars=yes, resizable=yes, top=50, left=500, width=750, height=645");
-			}
-
-		function openWin(){
- 				window.open("about.html","_blank","toolbar=no, scrollbars=yes, resizable=yes, top=50, left=500, width=750, height=645");
-			}
+		function openWin(url){
+			window.open(url + '.html','_blank','toolbar=no, scrollbars=yes, resizable=yes, top=50, left=500, width=750, height=645');
+		}
 	</script>
 
 </script>
@@ -70,11 +57,11 @@
 				
 	</nav>
 	<nav id="a_link_position">
-		<a class="navbuttons" id="product" href="#" onclick="openWin();">Product</a>
+		<a class="navbuttons" id="product" href="#" onclick="openWin('product');">Product</a>
 		
-		<a class="navbuttons" id="about" href="#" onclick="openWin();">About Us</a>
+		<a class="navbuttons" id="about" href="#" onclick="openWin('about');">About Us</a>
 		
-		<a class="navbuttons" id="contact" href="#" onclick="openWin();">Contact</a>
+		<a class="navbuttons" id="contact" href="#" onclick="openWin('contact');">Contact</a>
 	</nav>
 
 	
